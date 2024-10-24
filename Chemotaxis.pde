@@ -1,16 +1,3 @@
- //declare bacteria variables here   
- void setup()   
- {     
- 	//initialize bacteria variables here   
- }   
- void draw()   
- {    
- 	//move and show the bacteria   
- }  
- class Bacteria    
- {     
- 	//lots of java!   
- }    
 
 class Bacteria {
   int x, y;
@@ -66,5 +53,5 @@ void draw() {
   fill(0);
   textSize(16);
   textAlign(CENTER);
-  text("Bacteria Simulation - Click to attract", width / 2, 20);
+  text("Move mouse to attract bacteria", width / 2, 20);
 }
